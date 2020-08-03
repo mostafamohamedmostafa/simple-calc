@@ -22,25 +22,90 @@
 
     <section>
         <div class="container text-center">
-            <div class="row">
+            <div class="row mb-1 ">
                 <div class="col-lg-3">
-                    <input type="number" name="number" id="input-number-1">
+                    <input type="number" name="number" id="add-number-1">
                 </div>
                 <div class="col-lg-3">
-                    <input type="number" name="number" id="input-number-2">
-                </div>
-
-                <div class="col-lg-3">
-                    <button class="btn btn-primary " type="button" id="plus-button" onclick="plus()">
+                    <input type="number" name="number" id="add-number-2">
                 </div>
 
-                <div id="result" class="col-lg-3">
+                <div class="col-lg-3">
+                    <button class="btn btn-primary " type="button" id="plus-button" onclick="plus()">Add</button>
+                </div>
+
+                <div id="result" class="col-lg-1">
+                    <span></span>
 
                 </div>
             </div>
+
+            <div class="row  mb-1">
+                <div class="col-lg-3">
+                    <input type="number" name="number" id="sub-number-1">
+                </div>
+                <div class="col-lg-3">
+                    <input type="number" name="number" id="sub-number-2">
+                </div>
+
+                <div class="col-lg-3">
+                    <button class="btn btn-danger " type="button" id="sub-button"
+                        onclick="subtraction()">subtraction</button>
+                </div>
+
+                <div id="sub-result" class="col-lg-1">
+                    <span></span>
+
+                </div>
+            </div>
+
+
+            <div class="row  mb-1">
+                <div class="col-lg-3">
+                    <input type="number" name="number" id="divide-number-1">
+                </div>
+                <div class="col-lg-3">
+                    <input type="number" name="number" id="divide-number-2">
+                </div>
+
+                <div class="col-lg-3">
+                    <button class="btn btn-warning " type="button" id="divide-button" onclick="divide()">divide</button>
+                </div>
+
+                <div id="divide-result" class="col-lg-1">
+                    <span></span>
+
+                </div>
+            </div>
+
+
+            <div class="row mb-1">
+                <div class="col-lg-3">
+                    <input type="number" name="number" id="multiply-number-1">
+                </div>
+                <div class="col-lg-3">
+                    <input type="number" name="number" id="multiply-number-2">
+                </div>
+
+                <div class="col-lg-3">
+                    <button class="btn btn-secondary " type="button" id="multiply-button"
+                        onclick="multiply()">Multiply</button>
+                </div>
+
+                <div id="multiply-result" class="col-lg-1">
+                    <span></span>
+
+                </div>
+            </div>
+
+
         </div>
 
     </section>
+
+
+
+
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
