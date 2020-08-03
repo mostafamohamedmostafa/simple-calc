@@ -7,7 +7,7 @@
 }
 
 body{
-    background-image: url('img/finance-2837085_1920.png');
+    background-image: url('/img/finance-2837085_1920.png');
     background-position: center;
     background-size: cover;
 }
@@ -38,7 +38,7 @@ input{
 }
 
 .divide-number{
-    border: yellow 1px solid;
+    border: rgb(112, 112, 4) 1px solid;
 
 }
 
@@ -51,3 +51,6 @@ input{
     font-weight: 800;
     border: blue 3px double;
 }
+
+
+
