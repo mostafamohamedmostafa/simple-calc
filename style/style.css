@@ -28,12 +28,26 @@ input{
 }
 
 
+.add-number {
+    border: blue 1px solid;
+}
 
+.sub-number{
+        border: lightcoral 1px solid;
+
+}
+
+.divide-number{
+    border: yellow 1px solid;
+
+}
+
+.mulitply-number{
+    border: gray 1px solid;
+}
 
 .Simple-calc .result{
     color: darkmagenta;
     font-weight: 800;
     border: blue 3px double;
 }
-
-
