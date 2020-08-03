@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: large;
+    font-weight: 600;
+}
+
+body{
+    background-image: url('/img/finance-2837085_1920.png');
+    background-position: center;
+    background-size: cover;
+}
+
+.header{
+    color: blueviolet;
+    margin: 2rem;
+
+}
+
+
+
+
+input{
+    color: black;
+    text-align: center;
+ 
+}
+
+
+
+
+.Simple-calc .result{
+    color: darkmagenta;
+    font-weight: 800;
+    border: blue 3px double;
+}
+
+

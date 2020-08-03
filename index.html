@@ -18,29 +18,27 @@
         <h1 class="h1">Simple Calculater</h1>
     </header>
 
-
-
-    <section>
+    <section class="Simple-calc">
         <div class="container text-center">
-            <div class="row mb-1 ">
+            <div class="row mb-1 mt-1 ">
                 <div class="col-lg-3">
-                    <input type="number" name="number" id="add-number-1">
+                    <input type="number" class="add-number" name="number" id="add-number-1">
                 </div>
                 <div class="col-lg-3">
-                    <input type="number" name="number" id="add-number-2">
+                    <input type="number" class="add-number"  name="number" id="add-number-2">
                 </div>
 
                 <div class="col-lg-3">
                     <button class="btn btn-primary " type="button" id="plus-button" onclick="plus()">Add</button>
                 </div>
 
-                <div id="result" class="col-lg-1">
+                <div id="result"  class="col-lg-1 result">
                     <span></span>
 
                 </div>
             </div>
 
-            <div class="row  mb-1">
+            <div class="row  mb-1 mt-1">
                 <div class="col-lg-3">
                     <input type="number" name="number" id="sub-number-1">
                 </div>
@@ -53,14 +51,14 @@
                         onclick="subtraction()">subtraction</button>
                 </div>
 
-                <div id="sub-result" class="col-lg-1">
+                <div id="sub-result" class="col-lg-1 result">
                     <span></span>
 
                 </div>
             </div>
 
 
-            <div class="row  mb-1">
+            <div class="row  mb-1 mt-1">
                 <div class="col-lg-3">
                     <input type="number" name="number" id="divide-number-1">
                 </div>
@@ -72,14 +70,14 @@
                     <button class="btn btn-warning " type="button" id="divide-button" onclick="divide()">divide</button>
                 </div>
 
-                <div id="divide-result" class="col-lg-1">
+                <div id="divide-result" class="col-lg-1 result">
                     <span></span>
 
                 </div>
             </div>
 
 
-            <div class="row mb-1">
+            <div class="row mb-1 mt-1">
                 <div class="col-lg-3">
                     <input type="number" name="number" id="multiply-number-1">
                 </div>
@@ -92,7 +90,7 @@
                         onclick="multiply()">Multiply</button>
                 </div>
 
-                <div id="multiply-result" class="col-lg-1">
+                <div id="multiply-result" class="col-lg-1 result">
                     <span></span>
 
                 </div>
